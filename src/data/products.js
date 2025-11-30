@@ -31,14 +31,14 @@ const products = [
     id: 5,
     title: "Backpack Pro",
     price: 74.99,
-    image: "https://images.unsplash.com/photo-1553065350-6b5c9275c79f?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1642375352634-ad952121fdb3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     amount: 1
   },
   {
     id: 6,
     title: "Running Shoes",
     price: 139.99,
-    image: "https://images.unsplash.com/photo-1542292832-2b7c9e3d8e9b?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     amount: 1
   },
   {
@@ -52,7 +52,7 @@ const products = [
     id: 8,
     title: "Minimal Lamp",
     price: 49.99,
-    image: "https://images.unsplash.com/photo-1536686874524-4e6004089c2f?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1677596415970-55cfcee7aece?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1pbmltYWwlMjBsYW1wfGVufDB8fDB8fHww",
     amount: 1
   }
 ];
