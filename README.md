@@ -1,16 +1,36 @@
-# React + Vite
+Macho-E-Shop | Modern Shopping Cart (React + Tailwind 2025)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What I Learned & First-Time Achievements
 
-Currently, two official plugins are available:
+| Technology       | My Experience                                                                 | Confidence Level |
+|------------------|-------------------------------------------------------------------------------|------------------|
+| React + Vite     | Full project from scratch (Context, Reducer, Router, localStorage)           | 5 stars          |
+| **Tailwind CSS**     | **First time ever using Tailwind** → learned in <7 days, now my favourite tool | 5 stars          |
+| Responsive Design| Mobile-first approach, tested on phone/tablet/desktop                         | 5 stars          |
+| Modern UI/UX     | Sticky totals, hover animations, empty states, loading skeletons              | 5 stars          |
+| Git & Clean Code | Proper commits, folder structure, production-ready code                       | 5 stars          |
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Highlight:** I learned Tailwind CSS from zero during this project and delivered a pixel-perfect, fully responsive design that looks like it was made by a mid-level developer.
 
-## React Compiler
+This project proves I can:
+- Learn new tools extremely fast
+- Build production-ready apps in days, not weeks
+- Write clean, maintainable code
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## Features
+- Add / remove products
+- Increase / decrease quantity
+- Real-time total price & items count
+- Sticky totals at the bottom
+- Empty & filled cart states
+- Cart persists after refresh (localStorage)
+- Fully responsive (mobile-first)
+- Beautiful Tailwind CSS design + animations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React 18 + Vite
+- React Router v6
+- Context API + Reducer
+- Tailwind CSS
+- Lucide React icons
