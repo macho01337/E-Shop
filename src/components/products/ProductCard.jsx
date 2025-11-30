@@ -1,4 +1,7 @@
+import React, { useContext } from 'react'
+import { CartContext } from '../../context/CartContext';
 const ProductCard = ({product}) => {
+  const { addToCart } = useContext(CartContext);
   return (
     <div className="
         group
@@ -38,7 +41,8 @@ const ProductCard = ({product}) => {
             <p className="text-2xl font-bold text-gray-900">
                 ${product.price}
             </p>
-            <button className="
+            <button onClick={()=> addToCart(product)}
+            className="
               bg-blue-600 text-white
                 px-5 py-2
                 rounded-lg
